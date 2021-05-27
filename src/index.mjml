@@ -36,16 +36,40 @@
             </mj-column>
         </mj-section>
         <mj-section
+                vertical-align="middle"
+                padding-bottom="40px"
                 background-url="https://i.ibb.co/XCZ5H0G/bottom.jpg"
                 background-size="150px 200px"
                 background-repeat="no-repeat"
-                background-position="right">
-            <mj-column width="600px">
-                <mj-text  align="center"
-                          color="#fff"
-                          font-size="40px"
-                          font-family="Helvetica Neue">Slogan here</mj-text>
+                background-position="right bottom">
+            <mj-column width="600px" vertical-align="middle">
+                <mj-button href="tel:+79218488876" color="#000" vertical-align="middle" align="right" font-size="16px" background-color="none">
+                    +7 921 848 88 76
+                    <mj-text> </mj-text>
+                    <img style="vertical-align: middle" width="15" height="15" src="https://image.flaticon.com/icons/png/512/597/597177.png" />
+                </mj-button>
+
+                <mj-button href="mailto:Andrei.maslov@pebjordal.no"  color="#227754" align="right" font-size="16px" background-color="none" >
+                    <span style="border-bottom: 1px solid #227754">Andrei.maslov@pebjordal.no</span>
+                    <mj-text>   </mj-text>
+                    <img style="vertical-align: middle" width="20" height="15" src="https://image.flaticon.com/icons/png/512/646/646094.png" />
+                    <mj-text>   </mj-text>
+                    <mj-text>   </mj-text>
+                    <mj-text>   </mj-text>
+                </mj-button>
+                <mj-button href="https://www.pebjordal.no" color="#000" align="right" font-size="16px" background-color="none" >
+                    www.pebjordal.no
+                    <mj-text>   </mj-text>
+                    <img style="vertical-align: middle" width="15" height="15" src="https://image.flaticon.com/icons/png/512/900/900782.png"/>
+                    <mj-text>   </mj-text>
+                    <mj-text>   </mj-text>
+                    <mj-text>   </mj-text>
+                    <mj-text>   </mj-text>
+                    <mj-text>   </mj-text>
+                    <mj-text>   </mj-text>
+                </mj-button>
             </mj-column>
         </mj-section>
+        <mj-section></mj-section>
     </mj-body>
 </mjml>

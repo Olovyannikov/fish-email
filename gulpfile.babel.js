@@ -9,21 +9,20 @@ const browserSync = require('browser-sync');
 const del = require('del');
 
 
-
 // Simple config: just set up paths for everything
 const basePaths = {
-  src: './src/',
-  dist: './dist/',
+    src: './src/',
+    dist: './dist/',
 };
 
 const paths = {
-  html: {
-    src: basePaths.src + '*.mjml',
-  },
-  images: {
-    src: basePaths.src + 'img/*',
-    dist: basePaths.dist + 'img/'
-  }
+    html: {
+        src: basePaths.src + '*.mjml',
+    },
+    images: {
+        src: basePaths.src + 'img/*',
+        dist: basePaths.dist + 'img/'
+    }
 };
 
 
@@ -33,9 +32,9 @@ const paths = {
 // Waiting for the process to be `done` before reloading the browsers
 //
 const generateHtml = (done) => {
-  gulp.src(paths.html.src)
-    .pipe(mjml())
-    .pipe(gulp.dest(basePaths.dist));
+    gulp.src(paths.html.src)
+        .pipe(mjml())
+        .pipe(gulp.dest(basePaths.dist));
     browserSync.reload();
     done();
 };
@@ -47,13 +46,13 @@ const generateHtml = (done) => {
 // throw them in the `dist` folder & then inject them with BrowserSync
 //
 const images = (done) => {
-  gulp.src(paths.images.src)
-    .pipe(newer(paths.images.dist))
-    .pipe(imagemin({
-      verbose: true
-    }))
-    .pipe(gulp.dest(paths.images.dist))
-    .pipe(browserSync.stream())
+    gulp.src(paths.images.src)
+        .pipe(newer(paths.images.dist))
+        .pipe(imagemin({
+            verbose: true
+        }))
+        .pipe(gulp.dest(paths.images.dist))
+        .pipe(browserSync.stream())
     done();
 }
 
@@ -64,17 +63,17 @@ const images = (done) => {
 // to the changes on html & images generated
 //
 const watch = () => {
-  browserSync.init({
-    server: basePaths.dist
-  })
-  gulp.watch(paths.html.src, generateHtml);
-  gulp.watch(paths.images.src, images);
+    browserSync.init({
+        server: basePaths.dist
+    })
+    gulp.watch(paths.html.src, generateHtml);
+    gulp.watch(paths.images.src, images);
 };
 
 
 // Simple clean task, deleting the `dist` folder
 gulp.task('clean', () =>
-  del([ basePaths.dist ])
+    del([basePaths.dist])
 );
 
 
