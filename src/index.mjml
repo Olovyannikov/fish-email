@@ -1,0 +1,51 @@
+<mjml>
+    <mj-body background-color="#FFFFFF" color="#000000" font-family="Arial, sans-serif">
+        <mj-section background-color="#FFFFFF" background-repeat="no-repeat" text-align="center" vertical-align="top">
+            <mj-column>
+                <mj-image align="center" border="none" src="https://i.ibb.co/1YVFsLL/fish-logo.jpg" target="_blank" title="" width="600px"></mj-image>
+                <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding-bottom="0px" padding-top="0px" padding="10px 25px">
+                    <p style="line-height: 21px; margin: 10px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        Уважаемые г-да!
+                    </p>
+                    <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        Большое спасибо за посещение нашего стенда в рамках выставки AquaPro 2021 в Москве.
+                    </p>
+                    <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        В развитие наших с Вами переговоров хотели бы предложить Вам ознакомиться с новинками нашего оборудования.
+                    </p>
+                    <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        Потрошильной машиной KROMA GM750 для рыбы размерного ряда 0.2 кг- 0.9 кг и полуавтоматической линией для потрошения форели крупных размеров.
+                    </p>
+                    <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        Файлы с описанием прилагаю.
+                    </p>
+                    <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        Готов ответить на появившиеся вопросы.
+                    </p>
+                    <p style="line-height: 21px; margin: 10px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        С наилучшими пожеланиями,
+                    </p>
+                    <p style="font-weight: bold; line-height: 21px; margin: 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        Маслов Андрей Викторович
+                    </p>
+                    <p style="line-height: 21px; margin: 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        Генеральный директор
+                    </p>
+                </mj-text>
+                <mj-image align="left" border="none" src="https://i.ibb.co/3WZzMXD/signature.jpg" target="_blank" title="" width="300px"></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section
+                background-url="https://i.ibb.co/XCZ5H0G/bottom.jpg"
+                background-size="150px 200px"
+                background-repeat="no-repeat"
+                background-position="right">
+            <mj-column width="600px">
+                <mj-text  align="center"
+                          color="#fff"
+                          font-size="40px"
+                          font-family="Helvetica Neue">Slogan here</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
