@@ -1,0 +1,84 @@
+<mjml>
+    <mj-head>
+        <mj-include path="prototypes/head.mjml"/>
+        <mj-preview>
+            Если знания - то Lextorium!&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+        </mj-preview>
+        <mj-title>
+            Банкрут - крут? Должник платит, но недостаточно.
+        </mj-title>
+    </mj-head>
+    <mj-body width="600px" background-color="#ffffff">
+        <mj-include path="prototypes/header.mjml"/>
+        <mj-section width="600px" background-url="https://funkyimg.com/i/37ixn.jpg" background-repeat="no-repeat" background-size="cover"> <!--header-hero background -image-->
+            <mj-column width="100%" padding="30px">
+            </mj-column>
+            <mj-column width="100%" vertical-align="bottom">
+                <mj-text align="center" color="#ffffff" line-height="46px"
+                         font-family="Book antiqua, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif"
+                         font-size="36px" font-weight="600" padding="40px 20px 40px 20px">
+                    Банкрут - крут? Должник платит, но недостаточно.
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="container" padding-top="20px" padding-left="0">
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <p class="paragraph" style="text-align: center">
+                        <span style="text-transform: capitalize;">{{first_name|Коллега}}</span>, здравствуйте!
+                    </p>
+                    <p class="paragraph">
+                    Если у Вы поняли, о чем речь и читаете это, значит у нас опять получилось обойти Ваш спам - фильтр! Может, таким двум талантам по пути?
+                    </p>
+
+                    <p class="paragraph" style="text-align: center">
+                    Знакома Вам картина: 
+                    </p>
+                    <p class="paragraph">                    должник  ускользает, используя различные трюки. И делает это настолько виртуозно, что Вы даже не можете ввести его в статус банкрота?
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-spacer height="20px"></mj-spacer>
+
+        <mj-section mj-class="container">
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <p class="paragraph" style="padding: 0; text-align: center">
+                        И длится это - годами!!! Похоже на плохой сон. Что делать:
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-spacer height="30px"></mj-spacer>
+
+        <mj-section>
+            <mj-column>
+                <mj-text align="center">
+                    <a href="https://lextorium.com/news/mashineriya-bankrotstva-chtoby-shesterenki-ne-buksovali.html" class="button" style="background-color: #9d2847; border-color: #9d2847">
+                        Узнать прямо сейчас
+                    </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-spacer height="20px"></mj-spacer>
+
+        <mj-section mj-class="container" padding-left="0">
+            <mj-column width="100%">
+                <mj-text padding-left="0">
+                    <p class="paragraph">
+                        <i>
+                            Пусть ваш день сложится удачно! <br/>
+                            Команда Lextorium
+                        </i>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-include path="prototypes/footer.mjml" />
+    </mj-body>
+</mjml>

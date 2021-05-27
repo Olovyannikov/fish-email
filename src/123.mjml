@@ -1,0 +1,110 @@
+<mjml>
+    <mj-head>
+        <mj-include path="prototypes/head.mjml"/>
+        <mj-preview>Если знания - то Lextorium!</mj-preview>
+        <mj-title>Доступ закроется через 14 дней</mj-title>
+    </mj-head>
+    <mj-body width="600px" background-color="#ffffff">
+        <mj-include path="prototypes/header.mjml"/>
+        <mj-section width="600px" background-color="#ffffff"
+                    background-repeat="no-repeat"
+                    background-size="cover">
+            <mj-column width="100%" padding="50px">
+            </mj-column>
+            <mj-column width="100%" vertical-align="bottom">
+                <mj-text align="left" color="#141414" line-height="46px"
+                         font-family="Book antiqua, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif"
+                         font-size="36px" font-weight="600" padding="0px 20px 50px 20px">
+Доступ закроется через 14 дней
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="container" padding-top="20px" padding-bottom="0" padding-left="0">
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <p class="paragraph">
+                        <span style="text-transform: capitalize;">{$fullname}</span>, здравствуйте!
+                        Вы приобретали курс <a href="{$id | url : ['scheme' => 'full']}">{$pagetitle}</a> с периодом доступа до дд. мм. 2020.
+                    </p>
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                <p class="paragraph">
+                    Напоминаем, что дд. мм. 2020 доступ к курсу будет закрыт. У вас есть еще время, чтобы освежить в памяти все знания, успеть посмотреть те уроки, которые еще не были изучены, скачать материалы. 
+                    <a href="#" class="link"И пройти тестирование.</a>
+                </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-spacer height="20px"></mj-spacer>
+
+        <mj-section>
+            <mj-column>
+                <mj-text align="center">
+                    <a href="{$id | url : ['scheme' => 'full']}" class="button">
+                        Перейти к курсу
+                    </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-spacer height="20px"></mj-spacer>
+
+       <mj-section>
+           <mj-column>
+               <mj-text>
+               <p class="paragraph">
+                   Если потребуется дополнительное время на изучение курса и Вы готовы двигаться дальше, то Вы можете приобрести другой курс и получить продление к текущему.
+               </p>
+               </mj-text>
+           </mj-column>
+       </mj-section>
+
+<mj-spacer height="20px"></mj-spacer>
+
+   <mj-section>
+            <mj-column>
+                <mj-text align="center">
+                <a class="button" href="https://lextorium.com/courses/">Посмотреть расписпание</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p class="paragraph">
+                        Остались вопросы? Задайте их нашим менеджерам: <br/>
+                        <span style="padding-top: 10px; display: inline-block"><img src="https://funkyimg.com/i/36PUE.jpg"><a href="https://wa.me/79157559800/" class="link">+7 (915) 755-98-00 </a></span>
+                        или
+                        <span><img src="https://funkyimg.com/i/36PUF.jpg"><a href="tel:+79157559800" class="link">+7 (915) 755-98-00 </a></span>
+
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-spacer height="20px"></mj-spacer>
+     
+
+        <mj-section mj-class="container" padding-left="0">
+            <mj-column width="100%">
+                <mj-text>
+                    <p class="paragraph">
+                        <i>
+                            С уважением, <br/>
+                            Ваш {$_modx->config.site_name}!
+                        </i>
+                    </p>
+                </mj-text>
+
+            </mj-column>
+        </mj-section>
+        <mj-include path="prototypes/footer.mjml" />
+    </mj-body>
+</mjml>

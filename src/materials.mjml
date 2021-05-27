@@ -1,0 +1,98 @@
+<mjml>
+    <mj-head>
+        <mj-include path="prototypes/head.mjml"/>
+        <mj-preview>Если знания - то Lextorium!</mj-preview>
+        <mj-title>Материалы к курсу “{$resource.pagetitle}”</mj-title>
+    </mj-head>
+    <mj-body width="600px" background-color="#f6f6f6">
+        <mj-include path="prototypes/header.mjml"/>
+        <mj-section width="600px" background-color="#f6f6f6"
+                    background-repeat="no-repeat"
+                    background-size="cover">
+            <mj-column width="100%" padding="50px">
+            </mj-column>
+            <mj-column width="100%" vertical-align="bottom">
+                <mj-text align="left" color="#141414" line-height="46px"
+                         font-family="Book antiqua, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif"
+                         font-size="36px" font-weight="600" padding="0px 20px 50px 20px">
+Материалы к курсу “{$resource.pagetitle}”
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="container" padding-top="20px" padding-bottom="0" padding-left="0">
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <p class="paragraph">
+                        <span style="text-transform: capitalize;">{$fullname}</span>, здравствуйте!
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    
+        <mj-spacer height="20px"></mj-spacer>
+
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                     <p class="paragraph">
+                        Благодарим Вас за интерес к курсу “{$resource.pagetitle}”! <br/>
+                        Все материалы Вы найдете во вложении к данному письму.
+                     </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-left="0">
+            <mj-column>
+                <mj-text>
+                    <p class="paragraph">
+                        Чтобы ознакомиться с материалами, перейдите по ссылкам ниже:
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-spacer height="20px"></mj-spacer>
+
+        <mj-section>
+            <mj-column>
+                <mj-text align="center">
+                    <a href="{$link.title}" class="button">
+                        Ознакомиться с материалами 
+                    </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-spacer height="20px"></mj-spacer>
+                <mj-section>
+            <mj-column>
+                <mj-text>
+                    <p class="paragraph">
+                        Остались вопросы? Задайте их нашим менеджерам: <br/>
+                        <span style="padding-top: 10px; display: inline-block"><img src="https://funkyimg.com/i/36PUE.jpg"><a href="https://wa.me/79157559800/" class="link">+7 (915) 755-98-00 </a>
+                        или
+                        <span><img src="https://funkyimg.com/i/36PUF.jpg"><a href="tel:+79157559800" class="link">+7 (915) 755-98-00 </a>
+
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-spacer height="20px"></mj-spacer>
+
+        <mj-section mj-class="container" padding-left="0">
+            <mj-column width="100%">
+                <mj-text>
+                    <p class="paragraph">
+                        <i>
+                            С уважением, <br/>
+                            команда {$_modx->config.site_name}!
+                        </i>
+                    </p>
+                </mj-text>
+
+            </mj-column>
+        </mj-section>
+        <mj-include path="prototypes/footer.mjml" />
+    </mj-body>
+</mjml>

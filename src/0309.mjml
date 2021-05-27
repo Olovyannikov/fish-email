@@ -1,0 +1,106 @@
+<mjml>
+    <mj-head>
+        <mj-include path="prototypes/head.mjml"/>
+        <mj-preview>Если знания - то Lextorium!&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp; </mj-preview>
+        <mj-title>
+            Какого цвета ваш стройподряд: оранж, серебро, изумруд? 
+        </mj-title>
+    </mj-head>
+    <mj-body width="600px" background-color="#ffffff">
+        <mj-include path="prototypes/header.mjml"/>
+        <mj-section width="600px" background-url="https://i.ibb.co/QvPntpj/1.jpg" background-repeat="no-repeat"
+                    background-size="cover">
+            <mj-column width="100%" padding="30px">
+            </mj-column>
+            <mj-column width="100%" vertical-align="bottom">
+                <mj-text align="left" color="#ffffff" line-height="46px"
+                         font-family="Book antiqua, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif"
+                         font-size="36px" font-weight="600" padding="40px 20px 40px 20px">
+                    Какого цвета ваш стройподряд: оранж, серебро, изумруд?
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="container" padding-top="20px" padding-left="0">
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <p class="paragraph">
+                        <span style="text-transform: capitalize;">{{first_name|Коллега}}</span>, здравствуйте!
+                    </p>
+                    <p class="paragraph">
+                        Речь идет о разработанных  Международной Федерацией Инженеров Консультантов типовых формах основных договоров, используемых в строительной сфере. Для удобства и краткости за ними закрепились такие названия: Красная книга, Желтая книга, Оранжевая книга, Белая книга, Зеленая книга, Серебряная книга, Изумрудная книга и Золотая книга.                    </p>
+                    <p class="paragraph">
+                        Стоит отметить, что ФИДИК удалось не только провести значительную работу по систематизации договорных форм,  но и привнести некоторый шарм в такую обстоятельную и серьезную отрасль, как капитальное строительство.
+                    </p>
+                    <p class="paragraph">
+                        Что Вы теряете, если думаете, что все это не обязательно знать российскому юристу?
+                    </p>
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="container">
+            <mj-spacer height="30px"></mj-spacer>
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <a href="https://lextorium.com/news/tsvet-stroitelstva-oranzh,-serebro,-izumrud.-proformy-dogovorov.html" class="button">
+                        Узнать                   </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-spacer height="40px"></mj-spacer>
+        <mj-section mj-class="container" font-family="Arial, sans-serif">
+            <mj-column width="100%">
+                <mj-text font-family="Arial, sans-serif">
+                    <p style="font-size: 18px; padding-bottom: 10px;"><b>Хотите знать больше?</b></p>
+                    <p style="font-size: 16px;">
+                        Совсем скоро стартует новый курс:
+                    </p>
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%" border-left="2px solid #ffd44c" font-family="Arial, sans-serif">
+                <mj-text font-family="Arial, sans-serif">
+                    <p style="margin: 0; padding-bottom: 10px; padding-left: 15px;"><a style="color: #93bf3d; font-size: 18px;
+                    font-weight:bold;"
+                                                                                       href="https://lextorium.com/courses/vebinary/dogovor-stroitelnogo-podryada-problemy-teorii-i-praktiki.html">
+                        Договор строительного подряда: проблемы теории и практики
+                    </a></p>
+                    <p style="margin: 0; padding-bottom: 10px;  padding-left: 15px;font-size: 16px;">
+                        <b>Спикеры: </b> Андрей Егоров, Таир Сулейманов, Родион Филиппов, Владимир Липавский
+                    </p>
+                    <p style="margin: 0; padding-bottom: 10px;  padding-left: 15px;font-size: 16px;"><b>Начало: </b>
+                        26 сентября
+                    </p>
+                    <p style="margin: 0; padding-bottom: 10px;  padding-left: 15px;font-size: 16px;"><b>Формат
+                        участия: </b>онлайн + запись курса</p>
+                    <p style="margin: 0; padding-bottom: 10px;  padding-left: 15px;font-size: 16px;"><b>Стоимость:
+                    </b>от 17 900</p>
+                    <p style="margin: 0;  padding-left: 15px;font-size: 16px;">После окончания курса возможно получить удостоверение о повышении квалификации</p>
+                </mj-text>
+            </mj-column>
+            <mj-spacer height="40px"></mj-spacer>
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <a
+                            href="https://lextorium.com/courses/vebinary/dogovor-stroitelnogo-podryada-problemy-teorii-i-praktiki.html" class="button">Подробнее о курсе</a>
+
+                </mj-text>
+            </mj-column>
+            </mj-section>
+
+        <mj-section mj-class="container" padding-left="0">
+            <mj-column width="100%">
+                <mj-text padding-left="0">
+                    <p class="paragraph">
+                        <i>
+                            Пройдите свой путь через тернии теории к звездам практики с Lextorium!
+                        </i>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="prototypes/footer.mjml" />
+    </mj-body>
+</mjml>

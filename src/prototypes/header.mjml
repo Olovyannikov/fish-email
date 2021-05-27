@@ -1,0 +1,45 @@
+<mj-section padding-bottom="20px" padding-top="20px">
+    <mj-group>
+        <mj-column>
+            <mj-text align="center"
+                     mj-class="preheader"><a style="color: #9c9c9c" href="{{_WebLetterUrl}}">Открыть в
+                браузере</a></mj-text>
+        </mj-column>
+    </mj-group>
+</mj-section>
+<mj-section width="600px" background-color="#ffffff">
+    <mj-column width="250px">
+        <mj-text width="100%" align="center" padding-top="20px">
+            <a href="https://lextorium.com">
+                <img src="https://raw.githubusercontent.com/Olovyannikov/Lextorium/master/mjml-gulp/mjml-gulp-starter/src/img/logo.png" alt="Lextorium logo"
+                     align="center"
+                     width="214px"
+                     padding="10px 0 0 0"></a></mj-text>
+        <mj-text>
+            <p style="font-family: Book Antiqua, Arial; font-size: 16px; line-height: 46px; text-align: center; font-weight: 600; margin-top: 0">школа для юристов-практиков</p>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section font-family="Arial, sans-serif" background-color="#000000">
+    <mj-column font-family="Arial, sans-serif">
+        <mj-navbar font-family="Arial, sans-serif" base-url="https://lextorium.com/" ico-color="#444">
+            <mj-navbar-link font-family="Arial, sans-serif" padding="10px 15px" text-transform color="#ffdd4c"
+                            href="https://lextorium.com/about.html">О портале</mj-navbar-link>
+            <mj-navbar-link font-family="Arial, sans-serif" padding="10px 15px" text-transform color="#ffffff"
+                            href="https://lextorium.com/news/">Новости
+            </mj-navbar-link>
+            <mj-navbar-link font-family="Arial, sans-serif" padding="10px 15px" text-transform color="#ffffff"
+                            href="https://lextorium.com/courses/">
+                <span style="padding: 12px 0 12px 0;">Курсы</span></mj-navbar-link>
+            <mj-navbar-link font-family="Arial, sans-serif" padding="10px 15px" text-transform color="#ffffff"
+                            href="tel:+78005513206" padding="0"><span style="display: inline-block;
+                                    padding-left: 30px; padding-top: 10px; padding-bottom: 10px; "
+                                                                      role="link"
+                                                                      href="tel:+78005513206"
+            >
+              <img style="vertical-align: middle; padding-right: 10px;" src="https://github.com/Olovyannikov/Lextorium/blob/master/mjml-gulp/mjml-gulp-starter/src/img/phone.png?raw=true"
+                   alt="tel:+78005513206">8(800)
+              551-32-06</span></mj-navbar-link>
+        </mj-navbar>
+    </mj-column>
+</mj-section>

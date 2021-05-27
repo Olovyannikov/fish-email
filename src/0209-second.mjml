@@ -1,0 +1,70 @@
+<mjml>
+    <mj-head>
+        <mj-include path="prototypes/head.mjml"/>
+        <mj-preview>
+        Если знания - то Lextorium!&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </mj-preview>
+        <mj-title>Что особенного в сделках с предпочтением?</mj-title>
+    </mj-head>
+    <mj-body width="600px" background-color="#ffffff">
+        <mj-include path="prototypes/header.mjml"/>
+        <mj-section width="600px" background-url="https://i.ibb.co/F524nBs/2.jpg" background-repeat="no-repeat"
+                    background-size="cover">
+            <mj-column width="100%" padding="30px">
+            </mj-column>
+            <mj-column width="100%" vertical-align="bottom">
+                <mj-text align="left" color="#ffffff" line-height="46px"
+                         font-family="Book antiqua, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif"
+                         font-size="36px" font-weight="600" padding="40px 20px 40px 20px">
+                    Что особенного в сделках с предпочтением?                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="container" padding-top="20px" padding-left="0">
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <p class="paragraph">
+                        <span style="text-transform: capitalize;">{{first_name|Коллега}}</span>, здравствуйте!
+                    </p>
+                    <p class="paragraph">
+                        Доводилось ли Вам когда-нибудь смотреть одно и то же произведение  и в театре, и по ТВ дома?  Вы согласитесь, что это разные впечатления по своей насыщенности? Театр это все-таки натуральный 5D формат, ощущений больше - воспоминания в памяти ярче.
+                    </p>
+                    <p class="paragraph">
+                        Если есть возможность, почему бы не использовать это свойство восприятия в обучении? При личном нахождении в аудитории все помогает запоминанию и лучшему усвоению  материала: и то как падает свет, и шорохи, и даже запахи, и смех и реплики рядом сидящих - все формирует картинку, иллюстрируя материал в вашей памяти.
+
+                    </p>
+                    <p class="paragraph">
+                        Вам предоставляется прекрасная возможность разобраться в таком непростом предмете, как
+                        <a href="https://lextorium.com/courses/konferentsii/osparivanie-sdelok-i-subsidiarnaya-otvetstvennost-pri-bankrotstve.html"
+                           class="link">Оспаривание сделок и субсидиарная ответственность при банкротстве</a> в самых что ни на есть благоприятствующих условиях  - очно, на семинаре 18-19 сентября!                    </p>
+
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="container">
+            <mj-spacer height="30px"></mj-spacer>
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <a href="https://lextorium.com/news/platezh-kak-sdelka.-preferentsii-v-bankrotstve.html" class="button">
+                        Немного из либретто: преференциальные сделки                    </a>
+                </mj-text>
+            </mj-column>
+            <mj-spacer height="40px"></mj-spacer>
+        </mj-section>
+
+        <mj-section mj-class="container" padding-left="0">
+            <mj-column width="100%">
+                <mj-text padding-left="0">
+                    <p class="paragraph">
+                        <i>
+                            {{First_name|Коллега}}, пусть ваш день сложится удачно! <br/>
+                            Команда Lextorium
+                        </i>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-include path="prototypes/footer.mjml" />
+    </mj-body>
+</mjml>

@@ -1,0 +1,116 @@
+<mjml>
+    <mj-head>
+        <mj-include path="prototypes/head.mjml"/>
+        <mj-preview>
+            Если знания - то Lextorium!&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+        </mj-preview>
+        <mj-title>
+Предмет лизинга не передан. В каких случаях отвечает лизингодатель?
+      </mj-title>
+    </mj-head>
+    <mj-body width="600px" background-color="#ffffff">
+        <mj-include path="prototypes/header.mjml"/>
+        <mj-section width="600px" background-url="https://funkyimg.com/i/37jS2.jpg" background-repeat="no-repeat"
+                    background-size="cover">
+            <mj-column width="100%" padding="30px">
+            </mj-column>
+            <mj-column width="100%" vertical-align="bottom">
+                <mj-text align="left" color="#ffffff" line-height="46px"
+                         font-family="Book antiqua, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" 
+                         font-size="36px" font-weight="600" padding="40px 20px 40px 20px">
+Предмет лизинга не передан. <br/> В каких случаях отвечает лизингодатель? 
+               </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="container" padding-top="20px" padding-left="0">
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <p class="paragraph">
+                        <span style="text-transform: capitalize;">{{first_name|Коллега}}</span>, здравствуйте!
+                    </p>
+                    <p class="paragraph">
+                    В законе содержится правило: если выбор продавца предмета лизинга осуществил лизингополучатель, он несёт риск невыполнения продавцом обязанностей по договору купли-продажи. Иными словами, предоставление предмета лизинга находится в зоне ответственности лизингополучателя (постановление АС Уральского округа от 24.04.2019 № Ф09-9740/18).
+                    </p>
+                    <p class="paragraph">
+                        Однако в практике наблюдается расхождение с этой позицией. Например, в ситуации, когда неисполнение со стороны продавца связано с виной лизингодателя: возлагать риск на ту или иную сторону можно в случае, когда нет элемента вины. Впервые тезис был закреплен в постановлении Президиума ВАС от 12.07.2011 № 17748/10:
+                    </p>
+                    
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    <mj-spacer height="20px"></mj-spacer>
+
+        <mj-section mj-class="container">
+            <mj-column width="100%">
+                <mj-text align="center">
+                    <p class="paragraph" style="border-left: 2px solid #ffd44c; padding-top: 0;">
+                    <i>
+                    По условиям договора с иностранным контрагентом 20% ему перечислялось сразу в качестве аванса, а 80% следовало перечислить только после подтверждения, что закупаемая техника находится на железнодорожной платформе, готовая к пересечению границы. Лизингодатель отступил от условия, перечисленные деньги пропали, поскольку товар не был поставлен, а продавец обанкротился. 
+<br/><br/>
+Лизингодатель ссылался на норму п. 2 ст. 22 Закона о лизинге, поскольку выбор продавца сделал лизингополучатель. Однако суд не согласился с этими доводами и распределил риски между сторонами в соотношении 20% (лизингополучатель) и 80% (лизингодатель).
+    </i>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+<mj-section>
+    <mj-column>
+        <mj-text align="center">
+            <p class="paragraph"> 
+Похожее дело рассмотрел ВС (определение от 24.12.2019 № 305-ЭС19-18275) и пошёл ещё дальше: если будет установлена вина лизингодателя в неистребовании предмета у третьего лица, все риски следует возложить на первого, взыскав с него авансовый платеж и, возможно, проценты за пользование:
+            </p>
+        </mj-text>
+    </mj-column>
+</mj-section>
+
+    <mj-spacer height="20px"></mj-spacer>
+
+<mj-section mj-class="container">
+    <mj-column>
+        <mj-text align="center">
+            <p class="paragraph" style="border-left: 2px solid #ffd44c; padding-top: 0;">
+            <i>
+«…к обстоятельствам, имеющим значение для правильного разрешения настоящего дела, относится факт передачи предмета лизинга во владение и пользование лизингополучателя, а при его неподтверждении - то, чьим поведением - продавца либо лизингодателя - вызвана невозможность пользоваться и владеть предметом лизинга»            </p>
+    </i>
+        </mj-text>
+    </mj-column>
+</mj-section>
+    <mj-spacer height="20px"></mj-spacer>
+<mj-section>
+    <mj-column>
+        <mj-text>
+            <p class="paragraph">
+            Наши друзья – <a href="https://privlaw-conf.ru/semi0810" class="link">Клуб цивилистов</a> - осуществят погружение в вопросы рисков лизингополучателя уже 8 октября. <br/>
+            Присоединяйтесь к вечернему онлайн-семинару <b>«Договор лизинга: история, полная опасностей»</b>. 
+            </p>
+        </mj-text>
+    </mj-column>
+</mj-section>
+    <mj-spacer height="20px"></mj-spacer>
+    <mj-section>
+        <mj-column>
+            <mj-text align="center">
+            <a class="button" href="https://privlaw-conf.ru/semi0810"  style="background-color: #9d2847; border-color: #9d2847; 
+        border-width:30px 90px 30px 90px;">
+                Присоединиться
+            </a>
+            </mj-text> 
+        </mj-column>
+    </mj-section>
+
+        <mj-section mj-class="container" padding-left="0">
+            <mj-column width="100%">
+                <mj-text padding-left="0">
+                    <p class="paragraph">
+                        <i>
+Пройти свой путь через тернии теории к звездам практики с Lextorium!
+                        </i>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-include path="prototypes/footer.mjml" />
+    </mj-body>
+</mjml>
