@@ -5,6 +5,9 @@
                 <mj-image align="center" border="none" src="https://i.ibb.co/1YVFsLL/fish-logo.jpg" target="_blank" title="" width="600px"></mj-image>
                 <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding-bottom="0px" padding-top="0px" padding="10px 25px">
                     <p style="line-height: 21px; margin: 10px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                        28.05.2021
+                    </p>
+                    <p style="line-height: 21px; margin: 40px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
                         Уважаемые г-да!
                     </p>
                     <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
@@ -22,6 +25,13 @@
                     <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
                         Готов ответить на появившиеся вопросы.
                     </p>
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text>
                     <p style="line-height: 21px; margin: 10px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
                         С наилучшими пожеланиями,
                     </p>
@@ -32,8 +42,11 @@
                         Генеральный директор
                     </p>
                 </mj-text>
+            </mj-column>
+            <mj-column width="300">
                 <mj-image align="left" border="none" src="https://i.ibb.co/3WZzMXD/signature.jpg" target="_blank" title="" width="300px"></mj-image>
             </mj-column>
+
         </mj-section>
         <mj-section
                 vertical-align="middle"
