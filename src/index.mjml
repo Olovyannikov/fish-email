@@ -2,8 +2,10 @@
     <mj-body background-color="#FFFFFF" color="#000000" font-family="Arial, sans-serif">
         <mj-section background-color="#FFFFFF" background-repeat="no-repeat" text-align="center" vertical-align="top">
             <mj-column>
-                <mj-image align="center" border="none" src="https://i.ibb.co/1YVFsLL/fish-logo.jpg" target="_blank" title="" width="600px"></mj-image>
-                <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding-bottom="0px" padding-top="0px" padding="10px 25px">
+                <mj-image padding="0" align="center" border="none" src="https://i.ibb.co/1YVFsLL/fish-logo.jpg"
+                          target="_blank" title="" width="600px"></mj-image>
+                <mj-text padding="0" align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px"
+                         line-height="22px" padding-bottom="0px" padding-top="0px" padding="10px 25px">
                     <p style="line-height: 21px; margin: 10px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
                         28.05.2021
                     </p>
@@ -14,24 +16,25 @@
                         Большое спасибо за посещение нашего стенда в рамках выставки AquaPro 2021 в Москве.
                     </p>
                     <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
-                        В развитие наших с Вами переговоров хотели бы предложить Вам ознакомиться с новинками нашего оборудования.
+                        В развитие наших с Вами переговоров хотели бы предложить Вам ознакомиться с новинками нашего
+                        оборудования.
                     </p>
                     <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
-                        Потрошильной машиной KROMA GM750 для рыбы размерного ряда 0.2 кг- 0.9 кг и полуавтоматической линией для потрошения форели крупных размеров.
+                        Потрошильной машиной KROMA GM750 для рыбы размерного ряда 0.2 кг- 0.9 кг и полуавтоматической
+                        линией для потрошения форели крупных размеров.
                     </p>
                     <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
                         Файлы с описанием прилагаю.
                     </p>
-                    <p style="line-height: 21px; margin: 20px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
+                    <p style="line-height: 21px; margin: 20px 0 0 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
                         Готов ответить на появившиеся вопросы.
                     </p>
-
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section>
+        <mj-section padding="0">
             <mj-column>
-                <mj-text>
+                <mj-text padding="0">
                     <p style="line-height: 21px; margin: 10px 0; text-align: left;font-size:18px;color:#000000;font-family:'Times New Roman',Helvetica,Arial,sans-serif">
                         С наилучшими пожеланиями,
                     </p>
@@ -44,10 +47,22 @@
                 </mj-text>
             </mj-column>
             <mj-column width="300">
-                <mj-image align="left" border="none" src="https://i.ibb.co/3WZzMXD/signature.jpg" target="_blank" title="" width="300px"></mj-image>
+                <mj-image align="left" border="none" src="https://i.ibb.co/3WZzMXD/signature.jpg" target="_blank"
+                          title="" width="300px"></mj-image>
             </mj-column>
-
         </mj-section>
+
+        <mj-section margin="0" padding="0">
+            <mj-column width="300" padding="0">
+                <mj-image padding="0" align="left" border="none" src="https://i.ibb.co/qyyXXwd/machine.jpg"
+                          target="_blank" title="" width="300px"></mj-image>
+            </mj-column>
+            <mj-column width="300">
+                <mj-image padding="0" align="right" border="none" src="https://i.ibb.co/xMGJhKp/fishmachine.jpg"
+                          target="_blank" title="" width="300px"></mj-image>
+            </mj-column>
+        </mj-section>
+
         <mj-section
                 vertical-align="middle"
                 padding-bottom="40px"
@@ -56,24 +71,30 @@
                 background-repeat="no-repeat"
                 background-position="right bottom">
             <mj-column width="600px" vertical-align="middle">
-                <mj-button href="tel:+79218488876" color="#000" vertical-align="middle" align="right" font-size="16px" background-color="none">
+                <mj-button href="tel:+79218488876" color="#000" vertical-align="middle" align="right" font-size="16px"
+                           background-color="none">
                     +7 921 848 88 76
                     <mj-text> </mj-text>
-                    <img style="vertical-align: middle" width="15" height="15" src="https://image.flaticon.com/icons/png/512/597/597177.png" />
+                    <img style="vertical-align: middle" width="15" height="15"
+                         src="https://image.flaticon.com/icons/png/512/597/597177.png"/>
                 </mj-button>
 
-                <mj-button href="mailto:Andrei.maslov@pebjordal.no"  color="#227754" align="right" font-size="16px" background-color="none" >
+                <mj-button href="mailto:Andrei.maslov@pebjordal.no" color="#227754" align="right" font-size="16px"
+                           background-color="none">
                     <span style="border-bottom: 1px solid #227754">Andrei.maslov@pebjordal.no</span>
                     <mj-text>   </mj-text>
-                    <img style="vertical-align: middle" width="20" height="15" src="https://image.flaticon.com/icons/png/512/646/646094.png" />
+                    <img style="vertical-align: middle" width="20" height="15"
+                         src="https://image.flaticon.com/icons/png/512/646/646094.png"/>
                     <mj-text>   </mj-text>
                     <mj-text>   </mj-text>
                     <mj-text>   </mj-text>
                 </mj-button>
-                <mj-button href="https://www.pebjordal.no" color="#000" align="right" font-size="16px" background-color="none" >
+                <mj-button href="https://www.pebjordal.no" color="#000" align="right" font-size="16px"
+                           background-color="none">
                     www.pebjordal.no
                     <mj-text>   </mj-text>
-                    <img style="vertical-align: middle" width="15" height="15" src="https://image.flaticon.com/icons/png/512/900/900782.png"/>
+                    <img style="vertical-align: middle" width="15" height="15"
+                         src="https://image.flaticon.com/icons/png/512/900/900782.png"/>
                     <mj-text>   </mj-text>
                     <mj-text>   </mj-text>
                     <mj-text>   </mj-text>
